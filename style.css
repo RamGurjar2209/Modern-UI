@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.modern-textarea{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    width: 95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modern-heading{
+    font-weight: 500;
+    color: white;
+}
+
+.number{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number img{
+    width: 35px;
+}
+
+.number p{
+    color: white;
+}
+
+.number div{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.marketing{
+    width: 95%;
+    height: 150px;
+}
+
+.marketing h1{
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.blogs-container{
+    width: 95%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog{
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.blog p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(186, 185, 185);
+}
+
+.reader h5{
+    width: 94px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.cards{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    width: 280px;
+    height: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.icon img{
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.social-text p{
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.social-text h3{
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.marketing-card{
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.marketing-strategy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marketing-logo img{
+    width: 50px;
+}
+
+.marketing-logo{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.marketing-para p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.marketing-line{
+    width: 280px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marketing-line div{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+
+.marketing-icon{
+    margin-top: 20px;
+}
+
+        /* RESPONSIVE */
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+
+    .modern-textarea{
+        width:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .modern-heading p{
+        font-size: 15px;
+    }
+
+    nav{
+        width: 90%;
+    }
+
+    .number{
+        width: 340px;
+    }
+
+    .number p{
+        font-size: 15px;
+    }
+
+    .number div{
+        width: 4px;
+        height: 4px;
+    }
+
+    .marketing{
+        width: 90%;
+    }
+
+    .marketing h1{
+        font-size: 40px;
+    }
+
+    .blogs-container{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .blog{
+        width: 180px;
+    }
+
+    .blog p{
+        font-size: 10px;
+    }
+
+    .blog h5{
+        font-size: 12px;
+    }
+
+    .cards{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-container{
+        width:92%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .social-media{
+        width: 165px;
+    }
+
+    .marketing-card{
+        width: 165px;
+    } 
+
+    .marketing-icon{
+        margin-top: 5px;
+    }
+
+    .icon img{
+        width: 30px;
+    }
+
+    .social-text p{
+        font-size: 12px;
+    }
+
+    .social-text h3{
+        font-size: 18px ;
+    }
+
+    .marketing-logo img{
+        width: 20px;
+    }
+
+    .marketing-line{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .marketing-line div{
+        width: 80%;
+    }
+
+    .marketing-para p{
+        font-size: 11px;
+    }
+
+    .marketing-icon{
+        margin-top: 25px;
+    }
+}
